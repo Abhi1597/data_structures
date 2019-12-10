@@ -30,19 +30,18 @@ Print 2 integers in different lines where first integer represents the minimum o
 function processData(input) {
     //Enter your code here
     input = input.split('\n')
-    var count = Number(input[0])
+    var num = parseInt(input[0])
     var arr = input[1].split(' ')
-    var largest = Number(arr[0]), smallest = Number(arr[0])
-    for(var i = 0; i <= count; i++){
-        if(Number(arr[i]) > largest)
-            largest = Number(arr[i])
-    }
-    for(var i = 0; i <= count; i++){
-        if(Number(arr[i]) < smallest)
-            smallest = Number(arr[i])
+    var smallest = arr[0]
+    var largest = arr[0]
+    for(var i =0; i < num; i++){
+        if(parseInt(arr[i]) < smallest)
+            smallest = arr[i]
+        if(parseInt(arr[i]) > largest)
+            largest = arr[i]
     }
     console.log(smallest)
-    console.log(largest) 
+    console.log(largest)
 } 
 ```
 
