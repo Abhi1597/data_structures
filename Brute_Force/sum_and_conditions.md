@@ -1,6 +1,7 @@
 # Sum and Conditions
 
 You are given an array of **N** integers. Write a program that prints "Greater" (without quote) if the sum of all elements present in the array is greater than 100, else print "Lesser" (without quotes).
+
 ### Input Format
 
 First line contains **N**
