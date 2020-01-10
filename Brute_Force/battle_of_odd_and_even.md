@@ -10,7 +10,7 @@ Second line contains N space separated integers which are the elements of array.
 
 ### Constraints
 
-### N<100
+N<100
 
 ### Output Format
 
