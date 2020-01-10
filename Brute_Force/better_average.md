@@ -10,7 +10,7 @@ Second line contains N space separated integers describing scores of first batsm
 
 ### Constraints
 
-### N<100
+N<100
 
 ### Output Format
 

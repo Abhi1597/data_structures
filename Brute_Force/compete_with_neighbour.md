@@ -10,7 +10,7 @@ Second line contains N integer which are the elements of the array A.
 
 ### Constraints
 
-### N<100
+N<100
 
 There will always be at least 2 elements
 

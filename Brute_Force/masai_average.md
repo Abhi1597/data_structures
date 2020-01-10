@@ -8,7 +8,7 @@ The first line contains an integer, N (the number of integers in A). The second 
 
 ### Constraints
 
-### N<100
+N<100
 
 ### Output Format
 

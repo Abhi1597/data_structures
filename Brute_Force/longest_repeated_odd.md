@@ -10,7 +10,7 @@ Second line contains N integers which are the values of array.
 
 ### Constraints
 
-### N<100
+N<100
 
 ### Output Format
 

@@ -8,7 +8,7 @@ First and the only integer contains N
 
 ### Constraints
 
-### N<100000
+N<100000
 
 ### Output Format
 
