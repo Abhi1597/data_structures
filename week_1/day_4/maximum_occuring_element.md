@@ -1,4 +1,4 @@
-# Sum and Conditions
+# Maximum Occuring Element
 
 Given an array **A** of **N** integers. Your task is to print that integer which is present maximum number of times in the given array.
 
