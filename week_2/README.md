@@ -49,3 +49,16 @@
 [Product of Array Problem](https://github.com/Abhi1597/data_structures/blob/master/week_1/day_4/product_of_array_problem.md)
 
 [Sum And Conditions](https://github.com/Abhi1597/data_structures/blob/master/week_1/day_4/sum_and_conditions.md)
+
+
+### Day 5
+
+[Apply Brakes](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_5/apply_brakes.md)
+
+[Masai Sentence Reversal](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_5/masai_sentence_reversal.md)
+
+[Profile Pic](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_5/profile_pic.md)
+
+[Two Strings And Permutations](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_5/two_string_and_permutation.md)
+
+[Simple Challenge](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_5/simple_challenge.md)
