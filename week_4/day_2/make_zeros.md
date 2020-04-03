@@ -1,4 +1,4 @@
-# Make Zeros
+# Make Zeros (Ad-Hoc)
 
 Suppose we have an array of non-negative integers, like a_1, a_2, ... ,a_n. At each time we can choose one term a_i with 0 < i < n and we subtract 1 from both a_i and a_i+1. Comment if it is possible to get an array of all zeros after several operations.
 
