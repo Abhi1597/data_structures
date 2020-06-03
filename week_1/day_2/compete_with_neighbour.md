@@ -30,7 +30,9 @@ Output one integer which is the count of such occurences.
 ### Explanation 0
 
 In this case, 4 is bigger than both its neighbour 3 and 2. Similarly 6 is bigger than both its neighbour 5 and 1. So, the answer is 2.
+
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var count = 0
@@ -50,5 +52,18 @@ function processData(input) {
     }
     console.log(count)  
 } 
+```
+
+```python
+# Python
+n = int(input())
+arr = list(map(int, input().split()))
+arr.insert(0, -10**9)
+arr.append(-10**9)
+count = 0
+for i in range(1, n+1):
+    if arr[i] > arr[i-1] and arr[i] > arr[i+1]:
+        count += 1
+print(count)
 ```
 
