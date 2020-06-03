@@ -19,6 +19,7 @@ Both score <450
 Output one string(either Australia or England) which is the name of Winning team
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var aus, eng
@@ -35,4 +36,15 @@ function processData(input) {
         console.log("Tie")
     }
 } 
+```
+
+```python
+# Python
+aus, eng = input().split(" ")
+if int(aus) > int(eng):
+    print("Australia")
+elif int(eng) > int(aus):
+    print("England")
+else:
+    print("Tie")
 ```
