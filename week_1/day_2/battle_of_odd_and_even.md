@@ -38,6 +38,7 @@ Since 6>4, Even is the required output.
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var evenSum = 0, oddSum = 0
@@ -59,6 +60,7 @@ function processData(input) {
 ```
 
 ```python
+# Python
 n = int(input())
 arr = list(map(int, input().split()))
 odd_sum = 0
