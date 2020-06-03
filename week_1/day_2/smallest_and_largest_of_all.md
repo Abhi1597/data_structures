@@ -27,6 +27,7 @@ Print 2 integers in different lines where first integer represents the minimum o
 8
 ```
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     input = input.split('\n')
@@ -43,5 +44,20 @@ function processData(input) {
     console.log(smallest)
     console.log(largest)
 } 
+```
+
+```python
+# Python
+n = int(input())
+arr = list(map(int, input().split()))
+smallest, largest = arr[0], arr[0]
+
+for a in arr:
+    if a < smallest:
+        smallest = a
+    elif a > largest:
+        largest = a
+print(smallest)
+print(largest)
 ```
 
