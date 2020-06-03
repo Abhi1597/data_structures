@@ -26,7 +26,9 @@ Print either "Odd" or "Even" depending upon the condition mentioned above.
 ```
 Even
 ```
+
 Explanation 0
+
 ```
 Odd numbers present are 1 and 3, whose sum is 4
 
@@ -34,6 +36,7 @@ Even numbers present in array are 2 and 4, whose sum is 6
 
 Since 6>4, Even is the required output.
 ```
+
 ```javascript
 function processData(input) {
     //Enter your code here
@@ -53,4 +56,22 @@ function processData(input) {
     else
         console.log("Even")
 } 
+```
+
+```python
+n = int(input())
+arr = list(map(int, input().split()))
+odd_sum = 0
+even_sum = 0
+
+for a in arr:
+    if a % 2 == 0:
+        even_sum += a
+    else:
+        odd_sum += a
+
+if odd_sum > even_sum:
+    print("Odd")
+else:
+    print("Even")
 ```
