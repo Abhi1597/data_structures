@@ -25,6 +25,7 @@ Yes
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     if(input%4 == 0){
@@ -34,4 +35,13 @@ function processData(input) {
         console.log('No');
     }
 } 
+```
+
+```python
+# Python
+n = int(input())
+if n % 4 == 0:
+    print("Yes")
+else:
+    print("No")
 ```
