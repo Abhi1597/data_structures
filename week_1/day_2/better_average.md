@@ -32,6 +32,7 @@ Here, the number of matches is 3. And average of first batsman is 20 while avera
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var score1 = 0, score2 = 0, avg1, avg2
@@ -58,4 +59,21 @@ function processData(input) {
         console.log("-1")
     }  
 } 
+```
+
+```python
+# Python
+import math
+n = int(input())
+batsmen_1 = list(map(int, input().split()))
+batsmen_2 = list(map(int, input().split()))
+avg1 = math.ceil(sum(batsmen_1) / n)
+avg2 = math.ceil(sum(batsmen_2) / n)
+
+if avg1 >= avg2 and avg1 % 2 == 0:
+    print(avg1)
+elif avg2 > avg1 and avg2 % 2 == 0:
+    print(avg2)
+else:
+    print(-1)
 ```
