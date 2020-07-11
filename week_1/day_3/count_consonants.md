@@ -37,3 +37,14 @@ function processData(input) {
     console.log(count)
 } 
 ```
+```python
+# Python
+string = input().strip()
+vowel = "aeiou"
+count = 0
+for char in string:
+    if char not in vowel:
+        count += 1
+print(count)
+    
+```
