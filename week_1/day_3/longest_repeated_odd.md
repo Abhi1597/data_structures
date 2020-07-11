@@ -64,5 +64,25 @@ function processData(input) {
     console.log(max)
 } 
 ```
+```python
+# Python : O(n)
+n = int(input())
+arr = list(map(int, input().split()))
 
+index = 0
+currCount = 0
+maxCount = 0
+
+while index < n:
+    if arr[index] % 2 == 1:
+        currCount = 1
+        index += 1
+        while index < n and arr[index] == arr[index-1]:
+            currCount += 1
+            index += 1
+        if currCount > maxCount:
+            maxCount = currCount
+    index += 1
+print(maxCount)
+```
 
