@@ -29,6 +29,7 @@ Output one number which is the product of all elements.
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     input = input.split('\n')
@@ -41,4 +42,16 @@ function processData(input) {
 }  
 ```
 
+```python
+# Python
+n = int(input())
+arr = list(map(int, input().split()))
+
+prod = 1
+for num in arr:
+    prod *= num
+
+print(prod)
+
+```
 
