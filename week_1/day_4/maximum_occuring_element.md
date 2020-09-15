@@ -57,5 +57,23 @@ function processData(input) {
     console.log(occurance)
 }    
 ```
-
+```python
+# Python
+# Best Approach, T(C): O(n)
+n = int(input())
+arr = list(map(int, input().split()))
+di = {}
+for a in arr:
+    if a not in di:
+        di[a] = 1
+    else:
+        di[a] += 1
+count, ele = 1, arr[0]
+for k, v in di.items():
+    if v > count:
+        count = v
+        ele = k
+print(ele)
+    
+```
 
