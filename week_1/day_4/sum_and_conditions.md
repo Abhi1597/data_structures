@@ -24,28 +24,41 @@ Output Greater/Lesser depending upon the sum
 ```
 
 ### Sample Output 0
+
 ```
 Greater
 ```
+
 Explanation 0
+
 ```
 Since, sum of all elements in array is 109, therefore Greater
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
-    //Enter your code here
-    input = input.split('\n')
-    var num = parseInt(input[0]), sum = 0
-    var arr = input[1].split(' ')
-    for(var i = 0; i < num; i++){
-        sum += parseInt(arr[i])
-    }
-    if(sum > 100)
-        console.log("Greater")
-    else
-        console.log("Lesser")
-}   
+  //Enter your code here
+  input = input.split('\n');
+  var num = parseInt(input[0]),
+    sum = 0;
+  var arr = input[1].split(' ');
+  for (var i = 0; i < num; i++) {
+    sum += parseInt(arr[i]);
+  }
+  if (sum > 100) console.log('Greater');
+  else console.log('Lesser');
+}
 ```
 
+```python
+# Python
+n = int(input())
+s = sum(list(map(int, input().split())))
 
+if s > 100:
+    print("Greater")
+else:
+    print("Lesser")
+
+```
