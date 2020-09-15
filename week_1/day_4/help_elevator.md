@@ -26,6 +26,7 @@ Output **N** strings (either Beep or Enter depending on the value present)
 ```
 
 ### Sample Output 0
+
 ```
 Enter
 Enter
@@ -36,19 +37,29 @@ Beep
 
 ```javascript
 function processData(input) {
-    //Enter your code here
-    input = input.split('\n')
-    var num = parseInt(input[0])
-    var arr = input[1].split(' ')
-    for(var i = 0; i < num; i++){
-        if(parseInt(arr[i]) < 85){
-            console.log("Enter")
-        }
-        else{
-            console.log("Beep")
-        }
+  //Enter your code here
+  input = input.split('\n');
+  var num = parseInt(input[0]);
+  var arr = input[1].split(' ');
+  for (var i = 0; i < num; i++) {
+    if (parseInt(arr[i]) < 85) {
+      console.log('Enter');
+    } else {
+      console.log('Beep');
     }
-}   
+  }
+}
 ```
 
+```python
+# Python
+n = int(input())
+arr = list(map(int, input().split()))
 
+for num in arr:
+    if num < 85:
+        print("Enter")
+    else:
+        print("Beep")
+
+```
