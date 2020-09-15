@@ -107,5 +107,26 @@ function processData(input) {
     console.log(highest())
 }     
 ```
+```python
+# Python
+# C(T): O(n)
+n = int(input())
+arr = list(map(int, input().split()))
 
+di = {}
+unique = []
+for num in arr:
+    if num not in di:
+        di[num] = 1
+        unique.append(num)
+
+if len(di) < 3:
+    print("Not Possible")
+    print("Not Possible")
+else:
+    unique.sort()
+    print(*unique[0:3])
+    print(*unique[-3:])
+    
+```
 
