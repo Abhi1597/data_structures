@@ -27,6 +27,7 @@ Print an integer which is ceil of average of integers present in array
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var sum = 0, average
@@ -41,4 +42,15 @@ function processData(input) {
 } 
 ```
 
+```python
+# Python
+import math
+n = int(input())
+arr = input().split(" ")
+sum = 0
 
+for a in arr:
+    sum += int(a)
+avg = math.ceil(sum/n)
+print(avg)
+```
