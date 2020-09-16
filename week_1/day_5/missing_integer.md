@@ -43,5 +43,15 @@ function processData(input) {
 } 
      
 ```
+```python
+# Python
+# C(T) = O(N)
+arr = list(map(int, input().split()))
+n = len(arr) + 1
 
+missing = (n*(n+1) // 2) - sum(arr)
+print(missing)
+
+
+```
 

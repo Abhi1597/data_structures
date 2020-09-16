@@ -56,5 +56,17 @@ function processData(input) {
     }
 } 
 ```
+```python
+# Python
+n = int(input())
+checkin_bags = list(map(int, input().split()))
+hand_bags = list(map(int, input().split()))
 
+for i in range(n):
+    if checkin_bags[i] > 15 or hand_bags[i] > 7:
+        print("Stop")
+    else:
+        print("Boarding")
+
+```
 

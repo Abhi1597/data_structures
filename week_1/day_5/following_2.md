@@ -53,5 +53,18 @@ function processData(input) {
     console.log(follow(arr))  
 }      
 ```
+```python
+# Python
+n = int(input())
+arr = list(map(int, input().split()))
 
+follow = -1
+for i in range(n):
+    if arr[i] == 2 and i != (n-1):
+        follow = arr[i+1]
+        break
+
+print(follow)
+
+```
 
