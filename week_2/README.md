@@ -18,6 +18,8 @@
 
 [Your First Maze Problem](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_2/first_maze_problem.md)
 
+[Manage Forum Mall Parking](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_2/manage_forum_mall_parking.md)
+
 [Masai Divisors](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_2/masai_divisors.md)
 
 [Sum Of Special Pairs](https://github.com/Abhi1597/data_structures/blob/master/week_2/day_2/sum_of_special_pairs.md)
@@ -49,7 +51,6 @@
 [Product of Array Problem](https://github.com/Abhi1597/data_structures/blob/master/week_1/day_4/product_of_array_problem.md)
 
 [Sum And Conditions](https://github.com/Abhi1597/data_structures/blob/master/week_1/day_4/sum_and_conditions.md)
-
 
 ### Day 5
 
