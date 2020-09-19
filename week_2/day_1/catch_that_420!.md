@@ -34,6 +34,7 @@ Hence output is "Caught"
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var size = input.length
@@ -52,5 +53,14 @@ function processData(input) {
     console.log(test())
 }  
 ```
+```python
+# python
+n = str(input())
 
+if "420" in n:
+    print("Caught")
+else:
+    print("Escaped")
+
+```
 

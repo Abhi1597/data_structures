@@ -37,6 +37,7 @@ In operation 3, you can increment 1st and 2nd element and array becomes [4,4,4]
 Therefore, at least 3 operations are required atleast
 ```
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     input = input.split('\n')
@@ -53,4 +54,13 @@ function processData(input) {
     var steps = sum - (lowest*size)
     console.log(steps)
 } 
+```
+```python
+# python
+n = int(input())
+arr = list(map(int, input().split()))
+
+operations = sum(arr) - (min(arr)*n)  # ArraySum - (minimum_element * size(Array))
+print(operations)
+
 ```

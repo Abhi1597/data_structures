@@ -38,6 +38,7 @@ There are two integers present in this array which are divisible by 3 (those are
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     input = input.split('\n')
@@ -60,5 +61,18 @@ function processData(input) {
     console.log(sum)
 }   
 ```
+```python
+# python
+n, m = map(int, input().split())
 
+div_by_3 = 0
+for i in range(n):
+    arr = list(map(int, input().split()))
+    for j in range(m):
+        if arr[j] % 3 == 0:
+            div_by_3 += arr[j]
+
+print(div_by_3)
+
+```
 

@@ -27,6 +27,7 @@ thisracecarisgood
 The given string contains a palindromic substring which is, "racecar" and it is of largest length(7) among all other palindromic substrings. Hence the output is 7
 ```
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var str = input
@@ -51,4 +52,19 @@ function processData(input) {
     }
     console.log(max)
 }   
+```
+```python
+# python
+s = str(input())
+n = len(s)
+
+max_pal = 1
+for i in range(n-1):
+    for j in range(i+1, n+1):
+        sub = s[i:j]
+        if sub == sub[::-1] and len(sub) > max_pal:
+            max_pal = len(sub)
+
+print(max_pal)
+
 ```
