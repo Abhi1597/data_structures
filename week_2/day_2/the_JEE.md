@@ -35,6 +35,7 @@ Second
 Both students have equal total marks, that is 280 but second student has more marks in Maths, so he wins (gets better rank)
 ```
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     input = input.split('\n')
@@ -70,4 +71,25 @@ function processData(input) {
     }
     console.log(winner())  
 }  
+```
+```python
+# python
+first = list(map(int, input().split()))
+second = list(map(int, input().split()))
+
+first_sum = sum(first)
+second_sum = sum(second)
+
+if first_sum > second_sum:
+    print("First")
+elif second_sum > first_sum:
+    print("Second")
+elif first[2] > second[2]:
+    print("First")
+elif second[2] > first[2]:
+    print("Second")
+elif first[0] > second[0]:
+    print("First")
+else:
+    print("Second")
 ```

@@ -23,6 +23,7 @@ Output the count of such numbers
 10
 ```
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     input = input.split(' ')
@@ -36,4 +37,15 @@ function processData(input) {
     }
     console.log(count)
 }    
+```
+```python
+# python
+left, right, k = map(int, input().split())
+count = 0
+for i in range(left, right+1):
+    if i % k == 0:
+        count += 1
+
+print(count)
+
 ```

@@ -40,6 +40,7 @@ All valid index pairs are:
 ```
 
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     input = input.split('\n')
@@ -70,4 +71,27 @@ function processData(input) {
         return true
     }          
 }     
+```
+```python
+# python
+import math
+
+n = int(input())
+arr = list(map(int, input().split()))
+
+def isPrime(n):
+    high = math.floor(math.sqrt(n)) + 1
+    for i in range(2, high):
+        if n % i == 0:
+            return False
+    return True
+
+s = 0
+for i in range(n-2):
+    for j in range(i+2, n):
+        if isPrime(j-i):
+            s += abs(arr[j] - arr[i])
+
+print(s)
+
 ```

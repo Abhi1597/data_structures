@@ -25,10 +25,11 @@ LLRDDR
 0 -2
 ```
 ```javascript
+// Javascript
 function processData(input) {
     //Enter your code here
     var size = input.length
-    var x = 0, y = 0
+    var x = 0, y = 0;
     for(var i = 0; i < size; i++){
         switch(input[i]){
             case 'L' : x--
@@ -43,4 +44,22 @@ function processData(input) {
     }
     console.log(x,y)
 }   
+```
+```python
+# python
+x, y = 0, 0
+command = str(input())
+
+for d in command:
+    if d == "L":
+        x -= 1
+    elif d == "R":
+        x += 1
+    elif d == "D":
+        y -= 1
+    else:
+        y += 1
+
+print(x, y)
+
 ```
